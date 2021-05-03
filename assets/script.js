@@ -79,7 +79,7 @@ function listGenerator(catColor, name, ...ribbon){
     ribbonTag =`<i class='fas fa-ribbon'
                           style='color:${ribbon[0]};
                                 opacity:${ribbon[1]}'></i>`
-  }
+  };
 
   let html = `
     <li>
@@ -89,4 +89,4 @@ function listGenerator(catColor, name, ...ribbon){
     </li>
   `;
   return html;
-}
+};
